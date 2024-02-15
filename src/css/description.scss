@@ -1,0 +1,22 @@
+.description{
+  font-family: 'Lato',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #23283B;
+  text-align: center;
+  &-before{
+    position: relative;
+    &::before{
+      content: '';
+      width: 40px;
+      height: 1px;
+      background: #E6514A;
+      position: absolute;
+      top: 50%;
+      left: -12px;
+      transform: translate(-100%,-50%);
+    }
+  }
+}

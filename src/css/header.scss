@@ -1,0 +1,68 @@
+.header{
+  &__top{
+    padding: 16px 0;
+    border-bottom: 1px solid #DEDEFF;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icons{
+    display: flex;
+    column-gap: 21px;
+
+  }
+  &__social{
+    color: #23283B;
+    &:hover{
+      color: #E6514A;
+    }
+  }
+  &__numbers{
+    display: flex;
+    column-gap: 28px;
+  }
+  &__numbers-icon{
+    color: red;
+    &_green{
+      color: green;
+    }
+  }
+  &__numbers-tel{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #23283B;
+  }
+
+  &__bottom{
+    margin: 30px 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav{
+    display: flex;
+    column-gap: 102px;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    column-gap: 32px;
+  }
+  &__link{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #23283B;
+    &:hover{
+      color:  #3035C4;
+    }
+  }
+
+}
